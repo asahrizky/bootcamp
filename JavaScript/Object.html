@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function carDetail(Name, Model, Speed, Color, Year) {
+        var Car = {};
+        Car.Name = Name;
+        Car.Model = Model;
+        Car.Speed = Speed;
+        Car.Color = Color;
+        Car.Year = Year;
+
+        return Car;
+      }
+
+      var Cars = carDetail("Honda", "Sedan", "200KM", "Red", "2000");
+      var Cars1 = carDetail("Toyota", "SUV", "150KM", "Black", "1990");
+    </script>
+  </body>
+</html>
